@@ -33,7 +33,7 @@ public class Tablero {
     }
 
     private void colocarMinasAleatoriamente() {
-        Random random = new Random();
+           Random random = new Random();
         int minasColocadas = 0;
 
         while (minasColocadas < cantidadMinas) {
